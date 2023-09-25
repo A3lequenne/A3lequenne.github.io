@@ -6,7 +6,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #27732b;
+    background-color: blue;
     min-height: 100vh;
 }
 
@@ -44,4 +44,16 @@ img {
 
 a:-webkit-any-link {
     cursor: pointer;
+}
+
+@media (max-width: 300px) {
+    body {
+        background-color: red;
+    }
+}
+
+@media (min-width: 301px) and (max-width: 768px) {
+    body {
+        background-color: green;
+    }
 }
