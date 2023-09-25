@@ -1,17 +1,13 @@
-html {
-    font-family: 'Times New Roman', Times, sans-serif;
-}
-
 body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: blue;
+    background-color: #27732b;
     min-height: 100vh;
 }
 
 main {
-    background-color: lightblue;
+    background-color: #64C37D;
     padding: 50px;
     text-align: center;
     color:black;
@@ -36,7 +32,7 @@ img {
     padding: 10px;
     margin: 10px;
     color: black;
-    background-color: blue;
+    background-color: #27732b;
     border-radius: 10px;
     width: 50px;
     height: 3em;
@@ -44,6 +40,10 @@ img {
 
 a:-webkit-any-link {
     cursor: pointer;
+}
+
+#large{
+    display: block;
 }
 
 @media (max-width: 300px) {
@@ -56,16 +56,22 @@ a:-webkit-any-link {
     .social svg {
         background-color:red;
     }
+    #small {
+        display: block;
+    }
 }
 
 @media (min-width: 301px) and (max-width: 768px) {
     body {
-        background-color: green;
+        background-color: blue;
     }
     main {
-        background-color: lightgreen;
+        background-color: lightskyblue;
     }
     .social svg {
-        background-color: green;
+        background-color: blue;
+    }
+    #medium {
+        display: block;
     }
 }
