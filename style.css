@@ -19,7 +19,7 @@ main {
 }
 
 .intro {
-    color: black
+    color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 4rem;
 }
@@ -42,6 +42,6 @@ img {
     height: 3em;
 }
 
-a: :-webkit-any-link {
+a:-webkit-any-link {
     cursor: pointer;
 }
