@@ -1,0 +1,47 @@
+html {
+    font-family: 'Times New Roman', Times, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #27732b;
+    min-height: 100vh;
+}
+
+main {
+    background: #64C37D;
+    padding: 50px;
+    text-align: center;
+    color:black;
+    border-radius: 25px;
+}
+
+.intro {
+    color: black
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4rem;
+}
+
+.subtitle {
+    font-size: 2rem;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.social svg {
+    padding: 10px;
+    margin: 10px;
+    color: black;
+    background-color: #27732b;
+    border-radius: 10px;
+    width: 50px;
+    height: 3em;
+}
+
+a: :-webkit-any-link {
+    cursor: pointer;
+}
